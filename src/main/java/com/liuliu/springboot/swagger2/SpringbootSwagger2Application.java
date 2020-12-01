@@ -7,7 +7,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @MapperScan(basePackages = "com.liuliu.springboot.swagger2.mapper")
 @SpringBootApplication
-@EnableSwagger2     //启动Swagger2
+@EnableSwagger2
 public class SpringbootSwagger2Application {
 
     public static void main(String[] args) {
